@@ -2,4 +2,7 @@ module githumb.com/fpmoles/go-blog
 
 go 1.22.6
 
-require github.com/gomarkdown/markdown v0.0.0-20240730141124-034f12af3bf6 // indirect
+require (
+	github.com/gomarkdown/markdown v0.0.0-20240730141124-034f12af3bf6 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
